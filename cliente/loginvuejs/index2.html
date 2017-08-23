@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Master-Detail</title>
+	<script src="https://unpkg.com/vue"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+	<div id="Master-Detail">
+	<div id = "Menu" >
+			<a :class ="anchorClass('Usuarios')" v-on:click="chooseMenu('Usuarios')">Usuarios</a>
+			<a :class ="anchorClass('CuentaBancarias')" v-on:click="chooseMenu('CuentaBancarias')">Cuentas Bancarias</a>
+			<a :class ="anchorClass('Domicilios')" v-on:click="chooseMenu('Domicilios')">Domicilios</a>
+
+		</div>
+		
+	</div>
+
+</div>
+
+<script src ="mainComponent.js"></script>
+</body>
+</html>
+
+
+

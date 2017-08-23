@@ -1,0 +1,58 @@
+div.master-div-row {
+	border-size:1px;
+	border-style:solid;
+	border-color:black;
+	margin:10px;
+	padding:3px;
+}
+div.master-div {
+	width:70%;
+	float: left;
+}
+div.detail-div {
+	width:25%;
+	float:right;
+}
+div.Formulario {
+	background-color: #E6E6E6;
+	padding : 15px;
+}
+div.selected {
+	background-color: #81F7F3;
+}
+div.rowButtonsContainer {
+	display: inline-block;
+	float:right;
+}
+button.buttonNew {
+	float: right
+}
+p.nameParagraph {
+	display:inline-block;
+}
+
+button.masterButton {
+	height:50px;
+	width:50px;
+	align-content: center;
+}
+img.buttonImage {
+	height:30px;
+	width:30px	;
+
+}
+a.anchorMenu{
+	display:inline-block;
+	padding: 10px;
+	margin: 0px;
+}
+a.anchorSelected{
+	border-top: solid;
+	border-right: solid;
+	border-left: solid;
+	background-color: 
+}
+a.anchorNotSelected{
+	border: solid;
+
+}
